@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!-- Texture select and light -->
+
+<PropertyList>
+
+ <path>TNCBExtra1.ac</path>
+
+  <animation>
+    <type>textranslate</type> 
+    <object-name>EBuilding1</object-name> 
+    <property>/sim/time/sun-angle-rad</property>
+    <bias>0.0001</bias>
+    <step> 1.57 </step>
+    <factor>0.318471338</factor>
+    <axis> 
+      <x> 0 </x> 
+      <y> -1 </y> 
+    </axis> 
+  </animation>
+
+</PropertyList>

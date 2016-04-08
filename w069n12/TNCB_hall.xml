@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!-- Texture shift -->
+
+<PropertyList>
+
+ <path>TNCB_hall.ac</path>
+
+ <animation>
+  <name>TNCBHall</name> 
+<object-name>AriveFence</object-name>
+<object-name>Arrive</object-name>
+<object-name>BeamsL</object-name>
+<object-name>Cube.001</object-name>
+<object-name>Cube.002</object-name>
+<object-name>Cube.003</object-name>
+<object-name>Cube.004</object-name>
+<object-name>DepBeam</object-name>
+<object-name>DepEx</object-name>
+<object-name>DepExBeam</object-name>
+<object-name>Depart</object-name>
+<object-name>Electric</object-name>
+<object-name>Electric_0</object-name>
+<object-name>Electric_1</object-name>
+<object-name>FenceL</object-name>
+<object-name>GateR</object-name>
+<object-name>LitFloor</object-name>
+<object-name>LitFloor_0</object-name>
+<object-name>LitFloor_1</object-name>
+<object-name>Lugg</object-name>
+<object-name>Office</object-name>
+<object-name>OfficeRoof</object-name>
+<object-name>Roof</object-name>
+<object-name>RoofsLow</object-name>
+<object-name>StairW</object-name>
+<object-name>StairW_0</object-name>
+<object-name>StairW_1</object-name>
+<object-name>Vent</object-name>
+<object-name>WallA</object-name>
+<object-name>WallA_0</object-name>
+<object-name>WallA_1</object-name>
+<object-name>WallD</object-name>
+<object-name>WallInside</object-name>
+<object-name>WallInside_0</object-name>
+<object-name>WallInside_1</object-name>
+<object-name>WallL</object-name>
+<object-name>WallR</object-name>
+ </animation>
+
+  <animation>
+    <type>textranslate</type> 
+    <object-name>TNCBHall</object-name> 
+    <property>/sim/time/sun-angle-rad</property>
+    <step> 1.57 </step>
+    <factor>0.318471338</factor>
+    <axis> 
+      <x> -1 </x> 
+      <y>  0 </y> 
+    </axis> 
+  </animation>
+
+</PropertyList>
+

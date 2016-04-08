@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!-- Texture shift and flashlight -->
+
+<PropertyList>
+
+ <path>TNCB_twr.ac</path>
+
+ <animation>
+  <name>TNCBTower</name> 
+<object-name>AirpName</object-name>
+<object-name>AirpName_0</object-name>
+<object-name>AirpName_1</object-name>
+<object-name>Antenna</object-name>
+<object-name>TowerBase</object-name>
+<object-name>TowerBase_0</object-name>
+<object-name>TowerBase_1</object-name>
+<object-name>TowerFence</object-name>
+<object-name>TowerGlass</object-name>
+<object-name>TowerGlass_0</object-name>
+<object-name>TowerGlass_1</object-name>
+<object-name>TowerRoof</object-name>
+<object-name>TowerTop</object-name>
+ </animation>
+
+
+  <animation>
+    <type>textranslate</type> 
+    <object-name>TNCBTower</object-name> 
+    <property>/sim/time/sun-angle-rad</property>
+    <step> 1.57 </step>
+    <factor>0.318471338</factor>
+    <axis> 
+      <x> -1 </x> 
+      <y>  0 </y> 
+    </axis> 
+  </animation>
+
+<!--
+  <animation>
+    <type>textranslate</type> 
+    <object-name>EuroMastCombined</object-name> 
+    <property>/sim/time/sun-angle-rad</property>
+    <step> 1.57 </step>
+    <factor>0.318471338</factor>
+    <axis> 
+      <x> -1 </x> 
+      <y>  0 </y> 
+    </axis> 
+  </animation>
+
+ <animation>
+  <type>select</type>
+  <object-name>RedLamp</object-name>
+      <condition>
+       <greater-than>
+        <property>/sim/time/sun-angle-rad</property>
+        <value>1.47</value>
+       </greater-than>
+      </condition>
+ </animation>
+-->
+
+ <animation>
+  <type>select</type>
+  <object-name>RedFlash.001</object-name>
+      <condition>
+      <and>
+       <greater-than>
+        <property>/sim/time/sun-angle-rad</property>
+        <value>1.47</value>
+       </greater-than>
+       <greater-than>
+        <property>/sim/temp/TNCB_Flash</property>
+        <value>0</value>
+       </greater-than>
+     </and>
+     </condition>
+ </animation>
+
+ <nasal>
+  <load>
+   <![CDATA[
+       var Delay=0.1;
+       var Loep = maketimer(120, func () {
+
+           if(getprop("/sim/time/sun-angle-rad")>1.57){
+ 
+              if(getprop("/sim/temp/TNCB_Flash") == 0){
+                 setprop("/sim/temp/TNCB_Flash",1);
+                 Delay = 0.1;
+              }else{
+                 Delay = 1.4;
+                 setprop("/sim/temp/TNCB_Flash",0);
+              };
+           }else{
+              Delay = 120;
+              setprop("/sim/temp/TNCB_Flash",0);
+           };
+           Loep.restart(Delay);
+      });
+      setprop("/sim/temp/TNCB_Flash",0);
+      Loep.restart(Delay);
+   ]]>
+  </load>
+  <unload>
+   <![CDATA[
+     Loep.stop();
+     setprop("/sim/temp/TNCB_Flash",0); 
+     Loep = nil;
+     Delay = nil;
+   ]]>
+  </unload>
+ </nasal>
+
+</PropertyList>
+

@@ -1,0 +1,4 @@
+OBJECT_SHARED Models/Airport/ils.xml -68.964556 12.190917 8.25 259.18
+OBJECT_SHARED Models/Communications/vordme_1.xml -68.964556 12.190917 8.25 180
+OBJECT_SHARED Models/Industrial/generic_chimney_01.xml -68.943333 12.134444 -405.36 180
+OBJECT_SHARED Models/Airport/localizer.xml -68.942628 12.185219 11.45 192.23
