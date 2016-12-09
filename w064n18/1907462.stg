@@ -25,4 +25,9 @@ OBJECT_SHARED Models/Misc/caribbean_swimming_pool.ac -63.12527365 18.04622915 5.
 OBJECT_SHARED Models/Misc/recliners_parasols.ac -63.12583891 18.04616308 2 216
 OBJECT_SHARED Models/Misc/recliners_parasols.ac -63.12564909 18.04591688 1.88 208
 OBJECT_SHARED Models/Misc/beach_bar.ac -63.12535002 18.04618024 5.4 0
+OBJECT_SHARED Models/Maritime/Civilian/blue-sailing-boat.ac -63.1612571 18.0641279 -0.94 0
+OBJECT_SHARED Models/Maritime/Civilian/black-sailing-boat.ac -63.1352477 18.0446118 -0.18 0
+OBJECT_SHARED Models/Maritime/Civilian/trimaran_lowpoly.ac -63.1534997 18.0116509 -2.53 0
+OBJECT_SHARED Models/Maritime/Civilian/trimaran_lowpoly.ac -63.1410773 18.0199563 -1.58 0
+OBJECT_SHARED Models/Maritime/Civilian/trimaran_lowpoly.ac -63.1353193 18.0226312 -1.02 0
 OBJECT_STATIC waterfront_hotel5.ac -63.12512527 18.04646194 4.08 40

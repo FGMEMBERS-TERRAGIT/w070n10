@@ -124,6 +124,9 @@ OBJECT_SHARED Models/Misc/stmartin_lamp.xml -63.04751296 18.10209591 0.56 0
 OBJECT_SHARED Models/Misc/stmartin_lamp.xml -63.04738671 18.10208888 0.45 0
 OBJECT_SHARED Models/Misc/stmartin_lamp.xml -63.04729196 18.10205667 0.45 0
 OBJECT_SHARED Models/Misc/stmartin_lamp.xml -63.04719262 18.10203266 0.43 0
+OBJECT_SHARED Models/Maritime/Civilian/blue-sailing-boat.ac -63.0988047 18.0207011 -0.22 120
+OBJECT_SHARED Models/Maritime/Civilian/black-sailing-boat.ac -63.1036528 18.0325181 -0.06 0
+OBJECT_SHARED Models/Maritime/Civilian/trimaran_lowpoly.ac -63.1194501 18.0192703 -0.27 0
 OBJECT_STATIC TFFG_terminal_building.ac -63.04860646 18.10135519 0.66 100
 OBJECT_STATIC PJatc.ac -63.11677208 18.04325745 0 132
 OBJECT_STATIC PJ.ac -63.11358622 18.0436789 5.24 87.8
