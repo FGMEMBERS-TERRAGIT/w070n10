@@ -89,3 +89,8 @@ OBJECT_SHARED Models/Trees/bukszpan.xml -68.3649286 18.5622105 13.32 0
 OBJECT_SHARED Models/Transport/CCS_catering_truck.ac -68.363859 18.5627399 13.75 0
 OBJECT_STATIC MDPC_new_tower.xml -68.366208 18.5709131 12.12 286.7
 OBJECT_STATIC MDPC.xml -68.3638103 18.5629846 14.37 94.8
+# dsf2stg
+# do not edit below this line
+#
+OBJECT_SHARED Models/Airport/tower_small_airfield.xml -68.36623 18.57092 12.12 199.25
+# END dsf2stg
