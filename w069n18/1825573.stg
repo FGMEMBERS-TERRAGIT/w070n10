@@ -92,5 +92,5 @@ OBJECT_STATIC MDPC.xml -68.3638103 18.5629846 14.37 94.8
 # dsf2stg
 # do not edit below this line
 #
-OBJECT_SHARED Models/Airport/tower_small_airfield.xml -68.36623 18.57092 12.12 199.25
+OBJECT_SHARED Models/Airport/tower_small_airfield.xml -68.36623 18.57092 10.37 199.25
 # END dsf2stg

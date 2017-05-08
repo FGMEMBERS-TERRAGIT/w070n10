@@ -1,2 +1,11 @@
 OBJECT_SHARED Models/Communications/radio-medium.xml -61.373611 16.326389 -128.52 180
 OBJECT_SHARED Models/Maritime/Misc/left_bank_beacon.ac -61.3417 16.3333 -0.01 139.94
+# dsf2stg
+# do not edit below this line
+#
+OBJECT_SHARED Models/Airport/FGRefuel02.xml -61.26522 16.25704 3.11 256
+OBJECT_SHARED Models/lib/SmHangar.ac -61.26462 16.25704 2.95 258
+OBJECT_SHARED Models/lib/cube16x10.ac -61.26540 16.25723 3.10 76
+OBJECT_SHARED Models/Aircraft/Citation-II-Type1.ac -61.26371 16.25727 2.63 169.7
+OBJECT_SHARED Models/Aircraft/Cessna172_yellow.ac -61.26479 16.25739 2.88 348.02
+# END dsf2stg

@@ -10,6 +10,6 @@ OBJECT_SIGN {@size=10}{@L}27{@Y}A{@r} -60.9961815 14.59196933 5.6 100
 # dsf2stg
 # do not edit below this line
 #
-OBJECT_SHARED Models/Trees/platanus_acerifolia_15m.xml -60.99970 14.59052 5.51 282.8
-OBJECT_SHARED Models/Trees/platanus_acerifolia_15m.xml -60.99984 14.59051 5.51 289.98
+OBJECT_SHARED Models/Trees/platanus_acerifolia_15m.xml -60.99970 14.59052 5.54 282.8
+OBJECT_SHARED Models/Trees/platanus_acerifolia_15m.xml -60.99984 14.59051 5.54 289.98
 # END dsf2stg
