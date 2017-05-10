@@ -10,3 +10,4 @@ OBJECT_SHARED Models/Aircraft/dauphin.xml -61.27325938 15.86867326 6.17 0
 OBJECT_SHARED Models/Aircraft/crj100af-obj.xml -61.2724247 15.86908531 7.46 188
 OBJECT_SHARED Models/Airport/EIDW_Radar.ac -61.27233155 15.86980005 17.89 0
 OBJECT_SHARED Models/Airport/tower_small_airfield.xml -61.27268584 15.86912875 7.44 0
+OBJECT_SHARED Models/Aircraft/dhc6_red_lowpoly.ac -61.2730557 15.8684003 5.68 20
