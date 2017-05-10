@@ -21,7 +21,6 @@ OBJECT_SHARED Models/Maritime/Misc/right_bank_beacon.ac -61.0667 14.5933 0 213.5
 OBJECT_SHARED Models/Maritime/Misc/right_bank_beacon.ac -61.0633 14.5867 -0.18 130.74
 OBJECT_STATIC tfff_Maintenance_Hangar.ac -61.0208 14.5844 8.92 93
 OBJECT_STATIC tfff_Martinique_ATC.ac -61.00301103 14.59436446 6.52 100
-OBJECT_STATIC tfff_MMT.ac -60.99898017 14.59544219 7.12 105
 OBJECT_STATIC tfff_Martinique_terminal_2.ac -61.00515 14.59377 6.32 105
 OBJECT_STATIC tfff_Martinique_Waiting_Room.ac -61.00376928 14.59561192 7.12 295.1
 OBJECT_SIGN {@size=10}{@L}E{@Y}L{@r} -61.018266 14.58969152 6.95 352
