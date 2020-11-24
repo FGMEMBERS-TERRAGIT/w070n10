@@ -1,3 +1,11 @@
 OBJECT_SHARED Models/Communications/radio-medium.xml -65.495778 18.111944 -19.43 180
 OBJECT_SHARED Models/Communications/radio-medium.xml -65.470556 18.099444 -126.24 180
 OBJECT_SHARED Models/Communications/radio-medium.xml -65.47 18.098056 -128.26 180
+# dsf2stg
+# do not edit below this line
+#
+OBJECT_SHARED Models/lib/deciduous-tree2.xml -65.41554 18.12008 0.00 63.4348
+OBJECT_SHARED Models/lib/deciduous-tree3.xml -65.41531 18.11951 17.55 0
+OBJECT_SHARED Models/lib/deciduous-tree3.xml -65.41550 18.11956 16.18 0
+OBJECT_SHARED Models/lib/deciduous-tree3.xml -65.41540 18.11974 16.45 0
+# END dsf2stg
